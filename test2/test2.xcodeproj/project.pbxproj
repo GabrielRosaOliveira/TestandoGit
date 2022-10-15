@@ -60,17 +60,33 @@
 		C07F452128FB69940069E579 /* test2 */ = {
 			isa = PBXGroup;
 			children = (
+				C07F453B28FB6C2F0069E579 /* Navigation01 */,
+				C07F453A28FB6C1D0069E579 /* navigation02 */,
 				C07F452228FB69940069E579 /* AppDelegate.swift */,
 				C07F452428FB69940069E579 /* SceneDelegate.swift */,
-				C07F452628FB69940069E579 /* ViewController.swift */,
-				C07F452828FB69940069E579 /* Main.storyboard */,
 				C07F452B28FB69950069E579 /* Assets.xcassets */,
 				C07F452D28FB69950069E579 /* LaunchScreen.storyboard */,
 				C07F453028FB69950069E579 /* Info.plist */,
+			);
+			path = test2;
+			sourceTree = "<group>";
+		};
+		C07F453A28FB6C1D0069E579 /* navigation02 */ = {
+			isa = PBXGroup;
+			children = (
 				C07F453628FB6A380069E579 /* Tela02VC.swift */,
 				C07F453828FB6A490069E579 /* Tela02VC.storyboard */,
 			);
-			path = test2;
+			path = navigation02;
+			sourceTree = "<group>";
+		};
+		C07F453B28FB6C2F0069E579 /* Navigation01 */ = {
+			isa = PBXGroup;
+			children = (
+				C07F452628FB69940069E579 /* ViewController.swift */,
+				C07F452828FB69940069E579 /* Main.storyboard */,
+			);
+			path = Navigation01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
