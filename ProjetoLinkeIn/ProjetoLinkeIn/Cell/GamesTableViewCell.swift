@@ -10,7 +10,11 @@ import UIKit
 class GamesTableViewCell: UITableViewCell {
 
     
+    @IBOutlet weak var teamOneLabel: UILabel!
+    @IBOutlet weak var imageTeamOneImage: UIImageView!
     
+    @IBOutlet weak var imageTeamTwoImage: UIImageView!
+    @IBOutlet weak var teamTwoLabel: UILabel!
     
     
     
@@ -25,8 +29,18 @@ class GamesTableViewCell: UITableViewCell {
         
     }
 
-    func setupCell(games: String) {
-        
+    func setupCell(teamOne: String, teamTwo: String, imageTeamOne: UIImage, imageTeamTwo: UIImage) {
+        teamOneLabel.text = teamOne
+        teamTwoLabel.text = teamTwo
+        imageTeamOneImage.image = imageTeamOne
+        imageTeamTwoImage.image = imageTeamTwo
+    }
+    
+    func setupCell2(teamOne: String, teamTwo: String, imageTeamOne: UIImage, imageTeamTwo: UIImage) {
+        teamOneLabel.text = teamOne
+        teamTwoLabel.text = teamTwo
+        imageTeamOneImage.image = imageTeamOne
+        imageTeamTwoImage.image = imageTeamTwo
     }
     
 }
