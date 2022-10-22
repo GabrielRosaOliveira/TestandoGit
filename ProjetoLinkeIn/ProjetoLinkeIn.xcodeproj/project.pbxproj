@@ -13,6 +13,8 @@
 		C03FDE5F2902D28200A27FBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03FDE5D2902D28200A27FBD /* Main.storyboard */; };
 		C03FDE612902D28300A27FBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03FDE602902D28300A27FBD /* Assets.xcassets */; };
 		C03FDE642902D28300A27FBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03FDE622902D28300A27FBD /* LaunchScreen.storyboard */; };
+		C04876162904210000179DC3 /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04876142904210000179DC3 /* GamesTableViewCell.swift */; };
+		C04876172904210000179DC3 /* GamesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04876152904210000179DC3 /* GamesTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C03FDE602902D28300A27FBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C03FDE632902D28300A27FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C03FDE652902D28300A27FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04876142904210000179DC3 /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
+		C04876152904210000179DC3 /* GamesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GamesTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		C03FDE562902D28200A27FBD /* ProjetoLinkeIn */ = {
 			isa = PBXGroup;
 			children = (
+				C0487613290420D300179DC3 /* Cell */,
 				C03FDE572902D28200A27FBD /* AppDelegate.swift */,
 				C03FDE592902D28200A27FBD /* SceneDelegate.swift */,
 				C03FDE5B2902D28200A27FBD /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				C03FDE652902D28300A27FBD /* Info.plist */,
 			);
 			path = ProjetoLinkeIn;
+			sourceTree = "<group>";
+		};
+		C0487613290420D300179DC3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C04876142904210000179DC3 /* GamesTableViewCell.swift */,
+				C04876152904210000179DC3 /* GamesTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 				C03FDE642902D28300A27FBD /* LaunchScreen.storyboard in Resources */,
 				C03FDE612902D28300A27FBD /* Assets.xcassets in Resources */,
 				C03FDE5F2902D28200A27FBD /* Main.storyboard in Resources */,
+				C04876172904210000179DC3 /* GamesTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				C03FDE5C2902D28200A27FBD /* ViewController.swift in Sources */,
 				C03FDE582902D28200A27FBD /* AppDelegate.swift in Sources */,
 				C03FDE5A2902D28200A27FBD /* SceneDelegate.swift in Sources */,
+				C04876162904210000179DC3 /* GamesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
