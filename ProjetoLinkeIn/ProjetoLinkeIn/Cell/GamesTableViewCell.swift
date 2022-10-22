@@ -29,18 +29,6 @@ class GamesTableViewCell: UITableViewCell {
         
     }
 
-    func setupCell(teamOne: String, teamTwo: String, imageTeamOne: UIImage, imageTeamTwo: UIImage) {
-        teamOneLabel.text = teamOne
-        teamTwoLabel.text = teamTwo
-        imageTeamOneImage.image = imageTeamOne
-        imageTeamTwoImage.image = imageTeamTwo
-    }
-    
-    func setupCell2(teamOne: String, teamTwo: String, imageTeamOne: UIImage, imageTeamTwo: UIImage) {
-        teamOneLabel.text = teamOne
-        teamTwoLabel.text = teamTwo
-        imageTeamOneImage.image = imageTeamOne
-        imageTeamTwoImage.image = imageTeamTwo
-    }
+
     
 }
