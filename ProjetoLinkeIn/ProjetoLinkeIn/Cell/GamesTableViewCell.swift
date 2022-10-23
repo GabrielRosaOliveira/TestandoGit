@@ -9,13 +9,9 @@ import UIKit
 
 class GamesTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var nameCarLabel: UILabel!
     
-    @IBOutlet weak var teamOneLabel: UILabel!
-    @IBOutlet weak var imageTeamOneImage: UIImageView!
-    
-    @IBOutlet weak var imageTeamTwoImage: UIImageView!
-    @IBOutlet weak var teamTwoLabel: UILabel!
-    
+    @IBOutlet weak var selfCarImage: UIImageView!
     
     
     static let identifier: String = "GamesTableViewCell"
@@ -26,9 +22,13 @@ class GamesTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        setupCell(nameCar: nameCarLabel.text ?? "", carImagem: selfCarImage.image ?? UIImage())
+    }
+    
+    func setupCell(nameCar: String, carImagem: UIImage) {
+        nameCarLabel.text = nameCar
+        selfCarImage.image = carImagem
         
     }
-
-
     
 }
